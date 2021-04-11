@@ -11,42 +11,72 @@
 </head>
 
 <body>
-  <div class="container">
-    <div class="row">
-      <div class="col-xs-12 col-md-12">
-        <h1>D3Times</h1>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-xs-12  col-md-9">
-        <div id="scatter">
-          <!-- We append our chart here. -->
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12  col-md-12">
+                
+                <div class="article">
+                    <hr>
+
+                    <h2>Health Here!: An Interactive Dashboard for Poplation Health in US</h2>
+                    <br>
+                    <p>
+                        The analysis plots relationships between income, obesity, poverty with demographic factors and health risks for 50 states and the District of Columbia in the US.
+                        Median age, household income, and poverty rates are plotted against the smoking, lack of healthcare, and obesity rates for each state or district.
+                        <div id="author">
+                            <h1>Key Findings:</h1>
+                        </div>
+                        <ul>
+                            <li>The age demographic is densely populated within the middle age range from age 30-45.</li>
+                            <li>States or districts with lower income or higher poverty rates show higher rates of health risks.</li>
+                            <li>The findings from the data show that there is a positive correlation between the poverty rate (%), and the rate of risk factors % (Obese, Smokers, and Lack of Health Care). </li>
+                            <li>There is a negative correlation between household income (Median), and the rate of risk factors % (Obese, smokes, and lack of health care).</li>
+                            
+                        </ul>
+
+                    </p>
+
+                    <hr>
+                    <hr>
+
+                   
+                    <h2>Interactive Scatter Plot</h2>
+                    <p> Showing the relationship between health factors (x-axis) obesity, smoking, lack of health care with demographic factors (y-axis) age, household income, and poverty rate. 
+                      Click on any of the factors from the horizontal (x-axis) or vertical panel (y-axis), when the font color changed to black it means it’s active in the chart. The data points for each state represented by the scatter plots in the active
+                        chart, hover over the bubble to see more info.
+
+                    </p>
+
+
+                </div>
+                <div id="scatter">
+                </div>                
+            </div>
         </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-xs-12  col-md-9">
-        <div class="article">
-          <h2>Correlations Discovered Between Health Risks and Age, Income</h2>
-          <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor
-            quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean
-            ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+        <div class="row">
+            <div class="col-xs-12  col-md-12">
+                <div class="article">
+                    <h2>Correlations Discovered Between Health Risks, Age, Income</h2>
+                    <br>
+                    <div id="author">
+                        <h1>Poverty Rate or Household Income (Median) Versus Health Risks</h1>
+                    </div>
 
-          <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor
-            quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean
-            ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+                    <p>There seems to be a positive correlation between poverty rate (%) and the rate of risk factors. Lack of health care is also directly related to the poverty rate. On ther other hand, there is a negative correlation between household income (Median), and the rate of risk factors. When income increases the risk factors decrease.
+                    </p>
+                    <div id="author">
+                        <h1>Age Versus Health Risks</h1>
+                    </div>
 
-          <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor
-            quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean
-            ultricies mi vitae est. Mauris placerat eleifend leo.</p>
-        </div>
-      </div>
-    </div>
-  </div>
+                    <p>The relationship between age and health risks from the data needs more color. However, the age demographic is most in the age range of 30-45.  </p>
 
+                </div>
+                <br>
+                <br>
+  
   <!-- Footer-->
   <div id="footer">
-    <p>The Coding Boot Camp&copy;2016</p>
+    <p>Yash5- The Coding Boot Camp&copy;2021</p>
   </div>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>

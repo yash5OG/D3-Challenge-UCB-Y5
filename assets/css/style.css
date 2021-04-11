@@ -1,8 +1,3 @@
-.iframeContainer {
-  padding: 20px;
-  border: 1px solid #e3e3e3;
-}
-
 /* Sticky Footer rules (https://getbootstrap.com/examples/sticky-footer/) */
 html {
   position: relative;
@@ -28,4 +23,107 @@ body {
 #footer p {
   margin: 0;
   font-size: 16px;
+}
+
+
+.iframeContainer {
+  padding: 20px;
+  border: 1px solid #e3e3e3;
+}
+
+.h2,
+h2 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  font-family: "Palantino Linotype", Georgia, serif;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+img {
+  vertical-align: middle;
+  border-style: none;
+}
+
+header {
+  padding-left: 0px;
+  text-align: left;
+  background: #1abc9c;
+  color: rgb(115, 0, 209);
+  font-size: 20px;
+  width: 1110px;
+}
+
+#author p {
+  font-size: 0.75rem;
+  color: #767676;
+}
+
+#author h1 {
+  font-size: 18px;
+  color: rgb(69, 8, 133);
+  font-weight: bold;
+}
+
+body {
+  padding-bottom: 80px;
+}
+
+#footer {
+  position: absolute;
+  font-family: "Palantino Linotype", Georgia, serif;
+  bottom: 0;
+  width: 1110px;
+  height: 10px;
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  text-align: center;
+  background-color: #1abc9c;
+  padding-right: 30px;
+}
+
+
+.article {
+  font-size: 18px;
+  font-family: Georgia, serif;
+  color: rgb(0, 0, 0);
+  line-height: 1.7;
+  text-align: left;
+  text-justify: inter-word;
+  padding-right: 50px;
+  background-color: rgb(255, 255, 255);
+  padding: 50px;
+  width: 1110px;
+  font-family: "Palantino Linotype", Georgia, serif;
+}
+
+h3 {
+  font-size: 1.25rem;
+  line-height: 1.4375rem;
+  font-weight: 50;
+  font-family: "Palantino Linotype", Georgia, serif;
+  color: #121212;
+}
+
+#footer p {
+  margin: 0;
+  font-family: "Palantino Linotype", Georgia, serif;
+  font-size: 16px;
+}
+
+
+@media screen and (max-width: 555px) {
+  .article {
+      width: 500px;
+  }
+  header {
+      width: 500px;
+  }
+  #footer {
+      width: 500px;
+  }
 }
